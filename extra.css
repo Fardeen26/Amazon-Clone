@@ -1,0 +1,132 @@
+.box-hover:hover {
+    border: 1px solid #fff;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.list-container li:hover{
+    border: 1px solid #fff;
+    cursor: pointer;
+    /* z-index: 5; */
+    /* height: 5.8vh; */
+    /* padding: 10px 5px 0px 5px; */
+}
+
+.big-li:hover{
+    border: 1px solid #fff;
+}
+
+.highlight{
+    font-weight: 700;
+}
+
+.a-2:hover{
+    color: crimson;
+    text-decoration: underline crimson;
+}
+
+.a-hover:hover{
+    color: crimson;
+    text-decoration: underline crimson;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+footer li a:hover{
+    text-decoration: underline #ddd;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 810px) {
+
+
+    .logo {
+        width: 8.4vw;
+        height: 6.4vh;
+        padding-top: 13px;
+    }
+
+    .logo img {
+        width: 9vw;
+        height: 4.4vh;
+    }
+
+    .adres {
+        padding: 11px 1px 1px 10px;
+        margin: 0 -1px 0 2px;
+        width: 10vw;
+    }
+
+    .adres span {
+        font-size: 12px;
+    }
+
+    .adres p {
+        font-size: 11px;
+    }
+
+    #input {
+        width: 48vw;
+        height: 3vh;
+        position: relative;
+        padding-left: 53px;
+        font-size: 15px;
+        top: 6px;
+    }
+
+    .all {
+        height: 2.9vh;
+        width: 5.5vw;
+        left: 152px;
+        top: 28px;
+    }
+
+    .lang img {
+        width: 2.2vw;
+        height: 15px;
+        margin: 1px 4px -1px 0px;
+    }
+
+    .lang {
+        padding: 10px 5px 0px 0px;
+    }
+
+    .acc-list {
+        padding: 20px 0px 0px 4px;
+    }
+
+    .acc-list p {
+        font-size: 11px;
+    }
+
+    .acc-list span {
+        font-size: 12px;
+    }
+
+    .order {
+        width: 7.5vw;
+        height: 6.4vh;
+        padding: 24px 0px 0px 7px;
+        margin-left: 17px;
+    }
+
+
+    .order p {
+        font-size: 11px;
+    }
+
+    .order span {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+}
